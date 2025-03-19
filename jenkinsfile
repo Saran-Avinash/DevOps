@@ -15,7 +15,7 @@ pipeline {
         stage('build to images') {
             steps {
                 script {
-                    sh 'docker build -t saran/webapp1 .'
+                    sh 'docker build -t saranavinashb/webapp1 .'
                 }
             }
         }
